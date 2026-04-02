@@ -1,0 +1,6 @@
+"""OAuth service."""
+AUTHORIZE_URL = "https://platform.claude.com/oauth/authorize"
+CLAUDE_AI_AUTHORIZE_URL = "https://claude.com/cai/oauth/authorize"
+TOKEN_URL = "https://platform.claude.com/v1/oauth/token"
+CALLBACK_URL = "https://platform.claude.com/oauth/code/callback"
+CLIENT_METADATA_URL = "https://claude.ai/oauth/claude-code-client-metadata"
